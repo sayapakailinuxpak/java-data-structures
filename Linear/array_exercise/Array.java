@@ -1,6 +1,7 @@
 package Linear.array_exercise;
 
 
+
 public class Array{
     int[] numbers;
     int counter;
@@ -10,14 +11,15 @@ public class Array{
     }
 
     public void insert(int value){
-        for(int i = counter; i<counter; i++){
-            numbers[i] = value;
-            counter++;
-        }
+        numbers[counter] = value;
+        counter++;
+    
     }
 
     public void removeAt(int index){
-
+        for(int i=0; i<counter; i++){
+        
+        }
     }
 
     public void print(){
